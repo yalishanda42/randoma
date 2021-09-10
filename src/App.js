@@ -7,7 +7,7 @@ function App(props) {
   const [diceCount, setDiceCount] = useState(1)
   const [diceSides, setDiceSides] = useState(6)
   const [minValue, setMinValue] = useState(2)
-  const [maxValue, setMaxValue] = useState(2)
+  const [maxValue, setMaxValue] = useState(6)
   const [result, setResult] = useState(null)
 
   const generateResult = () => {

@@ -3,11 +3,11 @@ import './App.css';
 import { useState } from 'react';
 
 function App() {
-  const [isDice, setIsDice] = useState(false)
-  const [dice, setDice] = useState(1)
-  const [diceSides, setDiceSides] = useState(6)
-  const [minValue, setMinValue] = useState(2)
-  const [maxValue, setMaxValue] = useState(2)
+  // const [isDice, setIsDice] = useState(false)
+  // const [dice, setDice] = useState(1)
+  // const [diceSides, setDiceSides] = useState(6)
+  // const [minValue, setMinValue] = useState(2)
+  // const [maxValue, setMaxValue] = useState(2)
   const [result, setResult] = useState(null)
   return (
     <div className="App">
@@ -45,7 +45,7 @@ function App() {
 }
 
 function RandomaMeme(props) {
-  if (props.result == 2) {
+  if (props.result === 2) {
     return <img src={randoma} className="App-logo" alt="logo" />
   }
   return null;

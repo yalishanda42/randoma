@@ -1,8 +1,23 @@
-# Getting Started with Create React App
+# Randoma
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The random number generator that you don't want to use.
 
-## Available Scripts
+## Features
+
+1. Range generation
+
+Just supply a min and max value.
+
+2. Dice/Coin throwing
+
+Supports throwing up to ten 4, 6, 8, 10, 12, 20 or 100-sided dice at once, as well as a coins (labeled d2).
+
+3. Nice logo
+
+Or not.
+
+
+## Local Development
 
 In the project directory, you can run:
 

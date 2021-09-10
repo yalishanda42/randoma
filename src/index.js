@@ -4,9 +4,14 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+import { diceGenerator, randomNumberGenerator } from './realGenerators'
+
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <App
+      diceGenerator={diceGenerator}
+      randomGenerator={randomNumberGenerator}
+    />
   </React.StrictMode>,
   document.getElementById('root')
 );
